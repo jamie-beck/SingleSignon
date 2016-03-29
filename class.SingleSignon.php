@@ -11,7 +11,7 @@
  */
 class SingleSignon{
 	protected $secret     = 'rpo3WE3T1gPCgOcudUOYBger3srkJSgy';
-	protected $domain     = '.voltagepartners.com';
+	protected $domain     = '.domain.com';
 	protected $cookieName = 'bosinglesignon';
 	protected $timeout    = 604800; // 7 days
 
