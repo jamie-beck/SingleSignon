@@ -2,9 +2,9 @@
 
 /**
  * Use this class to implement single sign-on across multiple servers.
- * The cookie is set to only be accessable over https.
+ * The cookie is set to only be accessible over https.
  * After setting secret and domain you should only need to use the methods
- * setCookie() and checkCookie()
+ * setCookie() to login, checkCookie() to verify login and deleteCookie() for logout.
  *
  * @author Jamie Beck <jbeck@terabit.ca>
  * Class SingleSignon
